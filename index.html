@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BootStrap 4</title>
+
+  <link rel="stylesheet" href="./vendor/bootstrap-5.3.0-alpha3/css/bootstrap.rtl.css">
+  <link rel="stylesheet" href="./fonts/FontAwesome.Pro.6.3.0/css/all.css">
+
+  <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+  <div class="container">
+    <div class="body-container p-4">
+      <div class="row1 d-flex justify-content-center ">
+        <img class="img-fluid" src="images/B.png" alt="img">
+      </div>
+      <div class="row-2 ">
+        <form class="icon-link-hover">
+          <div class="mb-3 ">
+            <label for="exampleInputEmail1" class="form-label label-style"></label>
+            <input type="text" placeholder="Email address" class="form-control bg-dark input-style input" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3  input-icons  d-flex  ">
+            <i class="fa-regular fa-eye-slash p-3 " style="color: #888888;"></i>
+            <input type="text"  placeholder="Password" class="form-control bg-dark input input-style " id="exampleInputPassword1">
+
+          </div>
+          <div class="mb-3 form-check">
+            <label class="form-check-label d-flex justify-content-end label-style" for="exampleCheck1">Forgot password?</label>
+          </div>
+          <div class="d-grid gap-2 col-12 mx-auto">
+            <button class="button-s button-style" type="button"> Sign in </button>
+          </div>
+        </form>
+      </div>
+      <div class="row-4 d-flex justify-content-center pt-3">
+        <hr class="hr m-2">
+        <p class="p-style"> Or sign in With </p>
+        <hr class="hr m-2">
+      </div>
+      <div class="row-3  d-flex justify-content-center p-4">
+        <div>
+          <img class="img-fluid" src="images/Facebook.png" ALT="img">
+          <img class="img-fluid mx-4" src="images/logo_googleg_48dp.png" alt="img">
+          <img class="img-fluid" src="images/Twitter.png" alt="img">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+<script type="text/javascript" src="./vendor/bootstrap-5.3.0-alpha3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  const alertList = document.querySelectorAll('.alert')
+  const alerts = [...alertList].map(element => new bootstrap.Alert(element))
+</script>
+</html>

@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: myFont;
+    src: url("fonts/iran-sans/iran-sans-300.woff");
+    src: url("fonts/iran-sans/iran-sans-300.woff2");
+}
+
+body{
+    height: 100vh;
+    background-color: #17181A;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: myFont;
+}
+
+.body-container{
+
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc((100% / 100) * 10);
+    background-color: #30333C;
+    height: 550px;
+    width: 41%;
+    border-radius: 30px;
+    margin-bottom: 80px;
+    padding-right: 80px;
+    margin-left: 347px;
+}
+
+.row1{
+    width: 100%;
+    height: 80px;
+}
+.row-2{
+    width: 100%;
+    height: 300px;
+}
+.row-3{
+    width: 100%;
+    height: 120px;
+
+}
+.input:hover{
+    font-weight: 700;
+    border-color: black;
+    cursor: pointer;
+
+}
+.p:hover{
+    color: #ff253a;
+}
+
+.button-style{
+    background-color: #691AFD;
+    color: white;
+    height: 40px;
+}
+
+.label-style{
+    color: #9399A3;
+}
+
+.button-s{
+    height: 60px;
+    border-radius: 10px;
+}
+
+.row-4{
+    width: 100%;
+    height: 30px;
+}
+
+.hr{
+    width: 140px;
+    height: 30px;
+    color: #9399A3;
+}
+
+.p-style{
+    color: #9399A3;
+    font-weight: 700;
+}
+
+.input-style{
+    height:60px
+}
+
+.input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+
+input,
+input::placeholder,
+input:focus{
+    color: white!important;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white!important;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white!important;
+}
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.style{
+    align-items: center;
+}
